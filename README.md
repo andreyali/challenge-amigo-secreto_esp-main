@@ -33,7 +33,7 @@ Puedes ver una demostración del funcionamiento del proyecto aquí:
 
 Puedes acceder al proyecto yendo a este enlace:
 
-[Enlace al proyecto]
+[Enlace al repositorio de GitHub](https://github.com/andreyali/challenge-amigo-secreto_esp-main)
 
 ## Tecnologías utilizadas
 
@@ -44,11 +44,10 @@ Puedes acceder al proyecto yendo a este enlace:
 ## Personas Contribuyentes
 
 - [Nombre del contribuyente 1](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile)
-- [Nombre del contribuyente 2](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile)
 
 ## Personas Desarrolladoras del Proyecto
 
-- [Tu nombre]([Tu URL de perfil de GitHub])
+- [Andreyali]([https://github.com/andreyali])
 
 ## Licencia
 
