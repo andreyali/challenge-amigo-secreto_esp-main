@@ -13,6 +13,13 @@ function agregarAmigo() {
     }
 }
 
+function seleccionarAmigoAleatorio() {
+    // Validar que haya amigos disponibles
+    if (amigos.length === 0) {
+        alert("No hay amigos para seleccionar.");
+        return;
+    }
+    
 function mostrarAmigos() {
     // 1. Obtener el elemento de la lista
     const listaAmigos = document.getElementById("listaAmigos");
