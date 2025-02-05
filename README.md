@@ -25,7 +25,7 @@ El proyecto está culminado.
 
 ## Demostración de funciones y aplicaciones
 
-[Enlace al repositorio de GitHub](https://github.com/andreyali/challenge-amigo-secreto_esp-main/challenge-amigo-secreto_esp-main/assets/images.gif)
+[Enlace al repositorio de GitHub](![Alt Text](assets/images.gif)
 
 ## Acceso al Proyecto
 
