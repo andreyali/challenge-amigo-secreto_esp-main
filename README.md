@@ -25,7 +25,7 @@ El proyecto está culminado.
 
 ## Demostración de funciones y aplicaciones
 
-[Enlace al repositorio de GitHub](![Alt Text](assets/images.gif)
+[Enlace al repositorio de GitHub](![Alt Text](images/gifs/images.gif)
 
 ## Acceso al Proyecto
 
