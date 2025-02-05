@@ -43,6 +43,7 @@ function seleccionarAmigoAleatorio() {
     const resultadoElemento = document.getElementById("resultado");
     resultadoElemento.innerHTML = ""; // Limpiar el contenido anterior
 
-    // 4. Mostrar el resultado
-    resultadoElemento.innerHTML = `Amigo sorteado: ${amigoSeleccionado}`;
+  // *** LIMPIAR EL RESULTADO ANTERIOR Y MOSTRAR EL NUEVO RESULTADO ***
+    const resultadoElemento = document.getElementById("resultado");
+    resultadoElemento.textContent = `Amigo sorteado: ${amigoSeleccionado}`; // Usar textContent para reemplazar el contenido
 }
