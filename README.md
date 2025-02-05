@@ -25,7 +25,7 @@ El proyecto está culminado.
 
 ## Demostración de funciones y aplicaciones
 
-![Texto alternativo para el GIF](challenge-amigo-secreto_esp-main/assets/images.gif)
+![Texto alternativo para el GIF](https://github.com/andreyali/challenge-amigo-secreto_esp-main/assets/images.gif)
 
 ## Acceso al Proyecto
 
