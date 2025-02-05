@@ -27,7 +27,7 @@ El proyecto está culminado.
 
 Puedes ver una demostración del funcionamiento del proyecto aquí:
 
-[Enlace al repositorio de GitHub](https://github.com/andreyali/amigo-secreto)
+[Enlace al repositorio de GitHub](https://github.com/andreyali/challenge-amigo-secreto_esp-main)
 
 ## Acceso al Proyecto
 
