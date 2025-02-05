@@ -31,20 +31,14 @@ function sortearAmigo() {
         return;
     }
 
-    const resultado = document.getElementById("resultado");
-    resultado.innerHTML = "";
+   const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    const amigoSeleccionado = amigos[indiceAleatorio];
 
-    const amigosCopiados = [...amigos];
-    shuffleArray(amigosCopiados);
-
-    for (let i = 0; i < amigos.length; i++) {
-        const amigoActual = amigos[i];
-        const amigoSecreto = amigosCopiados[i];
-
-        const pareja = document.createElement("li");
-        pareja.textContent = `${amigoActual} le regala a ${amigoSecreto}`;
-        resultado.appendChild(pareja);
+    // Mostrar el resultado (usando innerHTML)
+    const resultadoElemento = document.getElementById("resultado");
+    resultadoElemento.innerHTML = `Amigo sorteado: ${amigoSeleccionado}`;
     }
+
 }
 
 function shuffleArray(array) {
