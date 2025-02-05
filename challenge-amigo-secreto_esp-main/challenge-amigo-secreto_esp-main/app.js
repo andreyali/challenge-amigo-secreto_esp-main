@@ -39,6 +39,8 @@ function seleccionarAmigoAleatorio() {
     // 3. Obtener el nombre sorteado
     const amigoSeleccionado = amigos[indiceAleatorio];
 
-    const resultadoElemento = document.getElementById("resultado");
-    resultadoElemento.innerHTML = `Amigo sorteado: ${amigoSeleccionado}`; // Usar innerHTML para reemplazar el contenido
+const resultadoElemento = document.getElementById("resultado");
+    setTimeout(() => {
+        resultadoElemento.innerHTML = `Amigo sorteado: ${amigoSeleccionado}`;
+    }, 0); // Timeout de 0 milisegundos
 }
