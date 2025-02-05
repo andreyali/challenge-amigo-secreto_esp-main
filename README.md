@@ -21,13 +21,13 @@ Este proyecto es una aplicación web sencilla para realizar el sorteo de "Amigo 
 
 ## Estado del Proyecto
 
-El proyecto está en desarrollo.
+El proyecto está culminado.
 
 ## Demostración de funciones y aplicaciones
 
 Puedes ver una demostración del funcionamiento del proyecto aquí:
 
-[Enlace a la demostración]
+[Enlace al repositorio de GitHub](https://github.com/andreyali/amigo-secreto)
 
 ## Acceso al Proyecto
 
