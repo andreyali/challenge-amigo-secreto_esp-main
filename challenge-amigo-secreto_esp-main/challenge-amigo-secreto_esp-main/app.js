@@ -14,33 +14,21 @@ function agregarAmigo() {
 }
 
 function mostrarAmigos() {
+    // 1. Obtener el elemento de la lista
     const listaAmigos = document.getElementById("listaAmigos");
+
+    // 2. Limpiar la lista existente (usando innerHTML)
     listaAmigos.innerHTML = "";
 
+    // 3. Iterar sobre el arreglo de amigos
     for (let i = 0; i < amigos.length; i++) {
         const amigo = amigos[i];
+
+        // 4. Crear un nuevo elemento de lista (<li>)
         const nuevoAmigo = document.createElement("li");
         nuevoAmigo.textContent = amigo;
+
+        // 5. Agregar el elemento <li> a la lista <ul>
         listaAmigos.appendChild(nuevoAmigo);
     }
-}
-
-
-function seleccionarAmigoAleatorio() {
-    // 1. Validar que haya amigos disponibles
-    if (amigos.length === 0) {
-        alert("No hay amigos para seleccionar.");
-        return;
-    }
-
-    // 2. Generar un índice aleatorio
-    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
-
-    // 3. Obtener el nombre sorteado
-    const amigoSeleccionado = amigos[indiceAleatorio];
-
-const resultadoElemento = document.getElementById("resultado");
-    setTimeout(() => {
-        resultadoElemento.innerHTML = `Amigo sorteado: ${amigoSeleccionado}`;
-    }, 0); // Timeout de 0 milisegundos
 }
